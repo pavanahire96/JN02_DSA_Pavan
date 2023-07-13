@@ -25,7 +25,7 @@ public:
   {
     if(topOfStack==0) {
       cout << "Stack is empty\n";
-      return 0;                // return null on empty stack 
+      return 0;               
     }
     topOfStack--;
     return stackData[topOfStack];
